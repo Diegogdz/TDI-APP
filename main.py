@@ -1,4 +1,3 @@
-import pandas as pd
 import flask
 from flask import Flask, request, render_template
 import gspread
