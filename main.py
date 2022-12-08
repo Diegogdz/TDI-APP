@@ -17,8 +17,7 @@ x = int(x)
 print(x)
 
 
-app = Flask(__name__)    
-app.static_folder = 'static'
+app = Flask(__name__)   
 
 
 @app.route('/')
