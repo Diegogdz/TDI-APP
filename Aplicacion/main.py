@@ -31,7 +31,7 @@ def inicio():
         else:
             print(1)    
 
-        return render_template("/index.html", x=x)
+        return render_template("Aplicacion/index.html", x=x)
         time.sleep(3)
 
   
